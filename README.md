@@ -263,10 +263,14 @@ npm run dev
 ## 📱 界面介绍
 
 ### 🏠 首页 (Home)
+<img width="2537" height="1183" alt="image" src="https://github.com/user-attachments/assets/22b349c4-c6b9-43e7-8054-c8ba51c7957d" />
+
 - 左侧：**学习笔记** — 浅蓝背景卡片，支持笔记添加/修改/删除，按课程绑定
 - 右侧：**学习动态** — 折线图展示一周每天学习时长，本周课程/任务统计
 
 ### 📅 课表管理 (Schedule)
+<img width="2542" height="1177" alt="image" src="https://github.com/user-attachments/assets/93e557b7-5473-464c-9041-bb5e7fe64fe5" />
+
 - 左侧筛选：学期下拉 / 周次快捷键 (1-20周) / 设置当前周
 - 顶部 Tab：「周视图」|「月视图」切换
 - **上传课表**：支持教务系统 PDF (自动解析)、CSV (逗号分隔)、Word 文档
@@ -275,28 +279,23 @@ npm run dev
 - 底部「导出课表」— 下载 CSV 文件
 
 ### 💬 AI 对话 (Chat)
+<img width="2546" height="1176" alt="image" src="https://github.com/user-attachments/assets/8b6d390f-bf2e-4cba-b19f-06ecbe5d8b1c" />
+
 - 左侧：历史对话列表，支持新建/切换/删除对话
 - 中间：对话气泡交互 (AI 白色气泡 / 用户蓝色气泡)，自带时间戳
 - 底部输入框：文本输入 + 发送按钮
 - 调用 /api/agent/chat，LangChain Agent 自主调用工具
 
-### 📚 知识库 (Knowledge)
-- 左侧筛选：学期 / 课程分类 / 文件类型
-- 右侧：文件网格卡片展示
-- 操作：批量上传 / 重新向量化 / 删除
-- 支持 PDF、Word、TXT、Markdown 文件格式
-
-### 📊 学习任务 (Tasks)
-- 左侧筛选：任务状态 / 优先级复选框
-- 右侧：**甘特图** 可视化展示任务时间线
-- 「AI 生成学习任务」按钮触发 Agent 规划工具
-
 ### ⚙️ 系统配置 (Settings)
+<img width="2539" height="1165" alt="image" src="https://github.com/user-attachments/assets/94dc5f67-7a6a-4ceb-8be4-da2490b546b6" />
+
 - 左侧菜单：DeepSeek 模型配置 / 向量库配置 / 课表导出 / 消息提醒 / 账号管理
 - 右侧：表单卡片，底部保存按钮
 - 模型参数：temperature / 上下文长度 / top_p / 最大输出 token
 
 ### 👤 登录页 (Login)
+<img width="2538" height="1178" alt="image" src="https://github.com/user-attachments/assets/c81212a3-1337-4943-80df-e9b8a0f59b04" />
+
 - 品牌蓝渐变背景，居中登录卡片
 - 用户名 + 密码表单，JWT Token 鉴权
 
